@@ -1,0 +1,5 @@
+# -----------------------------
+# functions/requirements.txt
+# -----------------------------
+fastapi
+uvicorn
