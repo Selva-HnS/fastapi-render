@@ -1,0 +1,29 @@
+🌐 3. Deploy on Render
+        Go to https://render.com
+
+        Login with GitHub.
+
+        Click "New + → Web Service"
+
+        Choose your repo (fastapi-app)
+
+        Fill these:
+
+        Name: fastapi-app
+
+        Runtime: Python
+
+        Build Command: (leave empty)
+
+        Start Command:
+            uvicorn app:app --host 0.0.0.0 --port $PORT
+
+        Environment: Python 3
+
+        Click "Create Web Service"
+
+✅ Bonus: Test Locally
+    pip install -r requirements.txt
+    uvicorn app:app --reload
+
+Open: http://127.0.0.1:8000/

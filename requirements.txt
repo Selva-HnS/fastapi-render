@@ -3,3 +3,10 @@
 # -----------------------------
 fastapi
 uvicorn
+requests
+python-multipart
+torch
+torchvision
+pillow
+opencv-python
+ultralytics
