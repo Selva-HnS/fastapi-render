@@ -42,3 +42,5 @@ git add .
     git add path/to/your_new_file.py
 git commit -m "Add new file to framework"
 git push
+
+## git rm -r --cached __pycache__/
