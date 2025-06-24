@@ -27,3 +27,18 @@
     uvicorn app:app --reload
 
 Open: http://127.0.0.1:8000/
+
+
+
+
+
+
+
+
+
+GIT:
+git status
+git add .
+    git add path/to/your_new_file.py
+git commit -m "Add new file to framework"
+git push
